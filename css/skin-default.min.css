@@ -1,0 +1,29 @@
+body{background-color:#fff;background-image:none;-webkit-background-size:initial;-moz-background-size:initial;-ms-background-size:initial;-o-background-size:initial;background-size:initial;background-position:top center;background-repeat:no-repeat;background-attachment:initial;scrollbar-face-color:#a4c956}
+a{color:#a4c956}
+::-moz-selection{background-color:#a4c956}
+::-webkit-selection{background-color:#a4c956}
+::selection{background-color:#a4c956}
+::-webkit-scrollbar-thumb{background-color:#a4c956}
+.form-control:focus{color:#a4c956}
+.btn.btn-secondary:hover,.btn.btn-secondary:focus{background-color:#aacd62;background-image:none;-webkit-background-size:initial;-moz-background-size:initial;-ms-background-size:initial;-o-background-size:initial;background-size:initial;background-position:initial;background-repeat:no-repeat;background-attachment:initial;border:1px solid #8cb339;color:#fff;text-shadow:0 -1px 0 #999;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.navbar-default .navbar-brand{background-color:#a4c956}.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{background-color:#a4c956}
+.navbar-default .navbar-nav>li>a:hover{color:#a4c956 !important}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover{color:#a4c956 !important}
+.navbar-default .navbar-toggle .icon-bar{background-color:#a4c956}
+#home h2{color:#a4c956;text-shadow:8px 7px 0 rgba(164,201,86,0.35)}
+.line{background-color:#a4c956}.line::before,.line::after{background-color:#b9d57d}
+#ceremony h2{color:#a4c956;text-shadow:8px 7px 0 rgba(164,201,86,0.35)}
+#photos .photo-gallery{background-color:#aecf69}
+#photos #wedding-photo .carousel-control:hover{background:#a4c956 !important}
+.content-avatar{background:#a4c956}.content-avatar::after{content:'';border-top-color:#a4c956}
+.content-item::after{font-family:'FontAwesome';font-size:18px;line-height:26px;font-weight:400;content:'\f15c';-webkit-box-shadow:0 0 0 3px #a4c956;-moz-box-shadow:0 0 0 3px #a4c956;-ms-box-shadow:0 0 0 3px #a4c956;-o-box-shadow:0 0 0 3px #a4c956;box-shadow:0 0 0 3px #a4c956}
+.content-item h3{color:#a4c956}.content-item h3 a{color:#a4c956}
+.content-item .odd{background:#a4c956;color:#fff}
+.content-quote blockquote{background-color:#a4c956}
+.content-quote::after{font-family:'FontAwesome';content:'\f10e';color:#a4c956 !important}
+.content-text::after{font-family:'FontAwesome';content:'\f15c';color:#a4c956 !important}
+.content-photo::after{font-family:'FontAwesome';content:'\f03e';color:#a4c956 !important}
+.content-chat::after{font-family:'FontAwesome';content:'\f0e6';color:#a4c956 !important}
+.content-end .content-avatar::after{border-bottom-color:#a4c956}
+#copyright h2{color:#a4c956}
+#copyright .social-icon>li>a{background-color:#a4c956}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>Erica e Giulio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/colorbox.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link id="skin" href="css/skin-red.min.css" rel="stylesheet">
+
+    <!-- begin:css-for-demo -->
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <!-- end:css-for-demo -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-default">
+
+  	<!-- begin:navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="#home">Erica & Giulio</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html?#home"><strong>Home</strong></a></li>
+          	<li><a href="index.html?#about">Chi Siamo</a></li>
+          	<li><a href="index.html?#ceremony">Cerimonia</a></li>
+          	<li><a href="index.html?#story">Storia</a></li>
+          	<li><a href="index.html?#contact">Auguri</a></li>
+          	<li class="active" ><a href="#gift">Regali</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- end:navbar -->
+
+	<!-- begin:gift -->
+	<section id="about">
+		<div class="line"></div>
+		<div class="about-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Regali</h2>
+						<p><h3>Siamo persone semplici, non amiamo oggetti costosi.
+						La vostra presenza al matrimonio è per noi la cosa più importante!</h3>
+						<p><h4>Tuttavia, se desiderate, potete contribuire al nostro viaggio di nozze: ne saremo felici!</h4></p>
+
+ 
+						<img src="img/bottom.png" class="about-img img-responsive" >
+						<p style="font-size: 24px;">Intestato a: Calzolari Giulio Pescio Erica Lista Nozze<p>
+						<p style="font-size: 24px;">IBAN:   IT09O0760101400000086636982<p>
+						<p style="font-size: 24px;">bic/swift:  BPPIITRRXXX<p>
+
+					</div>
+					<!-- break -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end:about -->
+
+
+	<!-- begin:copyright -->
+	<section id="copyright">
+		<div class="line"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Erica & Giulio</h2>
+					<p>Bahnhofstrasse 4 - Wessling 82234 - Germania<p>
+				</div>
+			</div>
+
+
+			<div class="row">
+					<p>Copyright &copy; 2017 All Right Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end:copyright -->
+<div id="loginForm" >
+            <p><label>Password:</label><input type="text" id="password" /></p>
+</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.blockUI.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/sha512.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script src="js/jquery.easing.js"></script> 
+    <script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			if (CryptoJS.SHA512($.cookie('password')) != hash){
+				console.log("lock with password")
+				$.blockUI({
+					message: $('#loginForm'),
+					baseZ: 1500,
+					overlayCSS:  {
+						backgroundColor:	'#000',
+						opacity:			1,
+						cursor:				'default'
+					},
+					css: {
+						cursor:				'default'
+					}
+				});
+			} else {
+
+				$("#loginForm").css("display", "none");
+				$.unblockUI();
+			}
+		});
+	</script>
+
+  </body>
+
+</html>

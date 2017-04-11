@@ -1,0 +1,152 @@
+body {
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -ms-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    scrollbar-face-color: #b11a21
+}
+a {
+    color: #b11a21
+}
+::-moz-selection {
+    background-color: #b11a21
+}
+::-webkit-selection {
+    background-color: #b11a21
+}
+::selection {
+    background-color: #b11a21
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b11a21
+}
+.form-control:focus {
+    color: #b11a21
+}
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus {
+    background-color: #ee6372;
+    background-image: none;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -ms-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    border: 1px solid #e8273b;
+    color: #fff;
+    text-shadow: 0 -1px 0 #999;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+.navbar-default .navbar-brand {
+    background-color: #b11a21
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #b11a21
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #b11a21 !important
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #b11a21 !important
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #b11a21
+}
+#home h2 {
+    color: #b11a21;
+    text-shadow: 8px 7px 0 rgba(237, 85, 101, 0.35)
+}
+.line {
+    background-color: #b11a21
+}
+.line::before,
+.line::after {
+    background-color: #f2838f
+}
+#ceremony h2 {
+    color: #b11a21;
+    text-shadow: 8px 7px 0 rgba(237, 85, 101, 0.35)
+}
+#photos .photo-gallery {
+    background-color: #ef6c7a
+}
+#photos #wedding-photo .carousel-control:hover {
+    background: #b11a21 !important
+}
+.content-avatar {
+    background: #b11a21
+}
+.content-avatar::after {
+    content: '';
+    border-top-color: #b11a21
+}
+.content-item::after {
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    content: '\f15c';
+    -webkit-box-shadow: 0 0 0 3px #b11a21;
+    -moz-box-shadow: 0 0 0 3px #b11a21;
+    -ms-box-shadow: 0 0 0 3px #b11a21;
+    -o-box-shadow: 0 0 0 3px #b11a21;
+    box-shadow: 0 0 0 3px #b11a21
+}
+.content-item h3 {
+    color: #b11a21
+}
+.content-item h3 a {
+    color: #b11a21
+}
+.content-item .odd {
+    background: #b11a21;
+    color: #fff
+}
+
+.content-quote blockquote {
+    background-color: #b11a21
+}
+.content-quote::after {
+    font-family: 'FontAwesome';
+    content: '\f10e';
+    color: #b11a21 !important
+}
+.content-text::after {
+    font-family: 'FontAwesome';
+    content: '\f15c';
+    color: #b11a21 !important
+}
+.content-photo::after {
+    font-family: 'FontAwesome';
+    content: '\f03e';
+    color: #b11a21 !important
+}
+.content-chat::after {
+    font-family: 'FontAwesome';
+    content: '\f0e6';
+    color: #b11a21 !important
+}
+.content-end .content-avatar::after {
+    border-bottom-color: #b11a21
+}
+#copyright h2 {
+    color: #b11a21
+}
+#copyright .social-icon>li>a {
+    background-color: #b11a21
+}

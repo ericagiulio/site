@@ -1,0 +1,77 @@
+#demo-panel{
+	position: fixed;
+	z-index: 6;
+	left: 0;
+	top: 100px;
+	background-color: #fff;
+	width: 132px;
+	height: auto;
+	padding: 18px 15px 0;
+	-webkit-transition: left 0.3s ease-in-out;
+	   -moz-transition: left 0.3s ease-in-out;
+		-ms-transition: left 0.3s ease-in-out;
+		 -o-transition: left 0.3s ease-in-out;
+			transition: left 0.3s ease-in-out;
+}
+
+#demo-panel.panel-hide{
+	left: -132px;
+	-webkit-transition: left 0.3s ease-in-out;
+	   -moz-transition: left 0.3s ease-in-out;
+		-ms-transition: left 0.3s ease-in-out;
+		 -o-transition: left 0.3s ease-in-out;
+			transition: left 0.3s ease-in-out;
+}
+
+#demo-panel .panel-toggle{
+	position: absolute;
+	right: -35px;
+	top: 0;
+	display: block;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	font-size: 14px; 
+	text-align: center;
+	border-radius: 0 4px 4px 0;
+	background-color: #fff;
+}
+
+#demo-panel .panel-toggle:hover{
+	cursor: pointer;
+}
+
+#demo-panel ul{
+	padding: 0;
+}
+
+#demo-panel ul > li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+}
+
+#demo-panel ul > .default{
+	background-color: #a4c956;
+}
+
+#demo-panel ul > .blue{
+	background-color: #5bc0de;
+}
+
+#demo-panel ul > .green{
+	background-color: #48cfad;
+}
+
+#demo-panel ul > .yellow{
+	background-color: #ffce54;
+}
+
+#demo-panel ul > .orange{
+	background-color: #F58026;
+}
+
+#demo-panel ul > .red{
+	background-color: #ed5565;
+}
