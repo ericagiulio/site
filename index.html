@@ -20,7 +20,7 @@
     <link href="css/colorbox.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link id="skin" href="css/skin-red.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/flags.css">
     <!-- begin:css-for-demo -->
     <link rel="stylesheet" type="text/css" href="css/demo.css">
     <!-- end:css-for-demo -->
@@ -51,16 +51,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#home"><strong>Home</strong></a></li>
-          	<li><a href="#about">Chi Siamo</a></li>
-          	<li><a href="#ceremony">Cerimonia</a></li>
-          	<li><a href="#story">Storia</a></li>
-            <li><a href="#contact">Auguri</a></li>
-          	<li><a href="gift.html">Regali</a></li>
-          	<li><p>
-            <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en">translate to English</a>
-            <a class="btn btn-default lang_selector trn" href="#" role="button"  data-value="it">translate to ITA</a>
-          </p></li>
+            <li class="active"><a href="#home"  class="trn" ><strong>Home</strong></a></li>
+          	<li><a href="#about"  class="trn" >Chi Siamo</a></li>
+          	<li><a href="#ceremony"  class="trn" >Cerimonia</a></li>
+          	<li><a href="#story"  class="trn" >Storia</a></li>
+            <li><a href="#contact"  class="trn" >Auguri</a></li>
+          	<li><a href="gift.html"  class="trn" >Regali</a></li>
+          	<li>
+	            <a class="lang_selector trn" href="javascript:void(0);" data-value="en"><img src="img/blank.gif" class="flag flag-gb" alt="English" /></a>
+	            <a class="lang_selector trn hidden" href="javascript:void(0);" data-value="it"><img src="img/blank.gif" class="flag flag-it" alt="Italiano" /></a>
+            </li>
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -76,8 +76,8 @@
     				<h1>Erica & Giulio</h1>
 
 
-					<h2>si sposano</h2>
-					<h3><span>...finalmente!</span></h3>
+					<h2 class="trn" >si sposano</h2>
+					<h3><span class="trn" >...finalmente!</span></h3>
 					<h2><BR></h2>
 					<!--<h4>And They are please to </h4>
 					<h5><span>~ Invite you ~</span></h5> -->
@@ -448,43 +448,12 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.colorbox.js"></script>
     <script src="js/jquery.easing.js"></script>
-    <!--<script src="js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
-	<script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>-->
-
 	<script src="js/jquery.translate.js"></script>
-
-
-
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 	<script>
 
 
-$(function() {
 
-  var t = {
-    "Cerimonia": {
-     en : "Wedding"
-    },
-    "si sposano": {
-     en : "getting"
-    }
-  };
-  var _t = $('body').translate({lang: "it", t: t});
-  var str = _t.g("translate");
-  console.log(str);
-
-
-  $(".lang_selector").click(function(ev) {
-    var lang = $(this).attr("data-value");
-    _t.lang(lang);
-
-    console.log(lang);
-    ev.preventDefault();
-  });
-
-
-
-});
 
 		$(document).ready(function() {
 
@@ -504,10 +473,13 @@ $(function() {
 				});
 			} else {
 
-				$("#loginForm").css("display", "none");
 				$.unblockUI();
+				$("#loginForm").addClass("hidden");
 			}
+
 		});
+
+	
 	</script>
 
   </body>

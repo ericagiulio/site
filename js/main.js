@@ -1,12 +1,62 @@
 var hash = "8ea2b240ea639774bcf38b3026550155aae577097f935a0048fd25a4175a4b57f9ba64ac121ed3ff2598a9c1dc6b883e356c6e9c178a83efba969f521eb00a66"
 
 
-// var lang = new Lang();
-// lang.dynamic('en', 'js/langpack/uk.json');
-// lang.init({
-// 	defaultLang: 'uk'
-// });
 
+$(function() {
+
+  var t = {
+    "Cerimonia": {
+     en : "Wedding"
+    },
+    "Chi Siamo": {
+     en : "Who we are"
+    },
+    "Storia": {
+     en : "History"
+    },
+    "Auguri": {
+     en : "Thanks"
+    },
+    "Regali": {
+     en : "Gitfs"
+    },
+    "si sposano": {
+     en : "are getting merried"
+    },
+    "...finalmente!": {
+     en : "...finally!"
+    }
+  };
+
+
+  if ($.cookie('lang') == "en" ){
+  	$(".lang_selector").eq(0).addClass("hidden");
+  	$(".lang_selector").eq(1).removeClass("hidden");
+  	var _t = $('body').translate({lang: "en", t: t});
+  } else {
+  	$.cookie('lang' , "it");
+  	var _t = $('body').translate({lang: "it", t: t});
+  }
+  
+  var str = _t.g("translate");
+  console.log($.cookie('lang'));
+
+
+  $(".lang_selector").click(function(ev) {
+    var lang = $(this).attr("data-value");
+
+    $(".lang_selector").removeClass("hidden");
+    $(this).addClass("hidden");
+
+    _t.lang(lang);
+    $.cookie('lang' , lang);
+    console.log(lang);
+    ev.preventDefault();
+  });
+
+
+
+});
 
 $(document).ready(function() {
 
@@ -27,7 +77,7 @@ $(document).ready(function() {
 	/**
 	* Scroll animation if click navbar menu
 	**/
-	$('a.navbar-brand, ul.navbar-nav > li > a').bind('click', function(event) {
+	$('a.navbar-brand, ul.navbar-nav > li > a').not('.lang_selector').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
