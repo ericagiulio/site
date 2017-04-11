@@ -51,12 +51,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="index.html?#home"><strong>Home</strong></a></li>
-          	<li><a href="index.html?#about">Chi Siamo</a></li>
-          	<li><a href="index.html?#ceremony">Cerimonia</a></li>
-          	<li><a href="index.html?#story">Storia</a></li>
-          	<li><a href="index.html?#contact">Auguri</a></li>
-          	<li class="active" ><a href="#gift">Regali</a></li>
+            <li><a href="index.html?#home" class="trn" ><strong>Home</strong></a></li>
+          	<li><a href="index.html?#about" class="trn" >Chi Siamo</a></li>
+          	<li><a href="index.html?#ceremony" class="trn" >Cerimonia</a></li>
+          	<li><a href="index.html?#story" class="trn" >Storia</a></li>
+          	<li><a href="index.html?#contact" class="trn" >Auguri</a></li>
+          	<li class="active" ><a href="#gift" class="trn" >Regali</a></li>
+          	<li>
+	            <a class="lang_selector trn" href="javascript:void(0);" data-value="en"><img src="img/blank.gif" class="flag flag-gb" alt="English" /></a>
+	            <a class="lang_selector trn hidden" href="javascript:void(0);" data-value="it"><img src="img/blank.gif" class="flag flag-it" alt="Italiano" /></a>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -70,7 +74,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Regali</h2>
+						<h2 class="trn" >Regali</h2>
 						<p><h3>Siamo persone semplici, non amiamo oggetti costosi.
 						La vostra presenza al matrimonio è per noi la cosa più importante!</h3>
 						<p><h4>Tuttavia, se desiderate, potete contribuire al nostro viaggio di nozze: ne saremo felici!</h4></p>
@@ -146,7 +150,7 @@
 				});
 			} else {
 				$.unblockUI();
-				$("#loginForm").css("display", "none");
+				$("#loginForm").addClass("hidden");
 			}
 		});
 	</script>
