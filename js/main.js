@@ -88,8 +88,21 @@ $(function() {
         en : "First lesson of \"Electromagnetic Fields\" at the University: Erica and Giulio bump into each other."
       },
       "^Aula": {
-       en : "Classroom E2 :>"
-     }
+        en : "Classroom E2 :>"
+      },
+      "^- tanto per": {
+        en : "just for fun"
+      },
+      "^Genovese di nascita,": {
+        en : "Born in Genoa, exports his joy when defeats the grip of the couch. He loves discovering different cultures, focusing mostly on the gastronomic aspects. A night with friends, a walk in a (not too) sunny day, afternoons with his BFF: the laptop. Nerd? In his best days. ;)"
+      },
+      "^Cresciuta a": {
+        en : "Grown up in Savona, Albisola, Vado... well, it's still unclear...since the beginning her parents taught her to travel by caravan as well as camping with tent and backpack. In spite of the travels, she keeps alive her passions: Volleyball, Sea and Friends! According to her, best days end with a beach volley among friends."
+      },
+      "^La vita è": {
+        en : "Life is but a Journey, to travel is to live twice"
+      }
+
    };
 
   if ($.cookie('lang') == "en" ){
