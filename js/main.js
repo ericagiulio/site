@@ -32,17 +32,33 @@ $(function() {
     "26 Agosto 2017": {
      en : "August, 26 2017"
     },
+    "Settembre, 17 2006": {
+     en : "September, 17 2006"
+    },
+    "Novembre (forse Ottobre) 2007": {
+     en : "November (maybe October) 2007"
+    },
+    "Giornate qualunque": {
+     en : "Ordinary days"
+    },
+    "Settembre 2011": {
+     en : "September 2011"
+    },
+    "Agosto 2014": {
+     en : "August 2014"
+    },
+    "Agosto, 26 2017": {
+     en : "August, 26 2017"
+    },
+
     "~ Ore 16:00 ~": {
-     en : "~ h 16:00 ~"
+     en : "~ At 16:00 ~"
     },
     "Galleria Fotografica": {
      en : "Photo Gallery"
     },
     "Finchè un giorno...": {
      en : "Until one day..."
-    },
-    "Aula E2 :>": {
-     en : "Classroom E2 :>"
     },
     "Intestato a": {
      en : "Recipient"
@@ -57,7 +73,7 @@ $(function() {
         en : "And finally, we are now getting married. :')"
       },
       "^...anche Giulio": {
-        en : "...Giulio joined Erica in the core of Bavaria. Time flies with friends, challenging tasks at work and worldwide travels."
+        en : "...Giulio joins Erica in the core of Bavaria. Time flies with friends, challenging tasks at work and worldwide travels."
       },
       "^...che cambia solo": {
         en : "...that scales only when Erica moves to Munich"
@@ -70,7 +86,10 @@ $(function() {
       },
       "^Prima lezione di": {
         en : "First lesson of \"Electromagnetic Fields\" at the University: Erica and Giulio bump into each other."
-      }
+      },
+      "^Aula": {
+       en : "Classroom E2 :>"
+     }
    };
 
   if ($.cookie('lang') == "en" ){
@@ -203,11 +222,11 @@ $(document).ready(function() {
 /*
 * Here is how you use it
 */
-$(function(){    
+$(function(){
     $('.view-pdf').on('click',function(){
         var pdf_link = $(this).attr('href');
         //var iframe = '<div class="iframe-container"><iframe src="'+pdf_link+'"></iframe></div>'
-        //var iframe = '<object data="'+pdf_link+'" type="application/pdf"><embed src="'+pdf_link+'" type="application/pdf" /></object>'        
+        //var iframe = '<object data="'+pdf_link+'" type="application/pdf"><embed src="'+pdf_link+'" type="application/pdf" /></object>'
         var iframe = '<object type="application/pdf" data="'+pdf_link+'" width="100%" height="500">No Support</object>'
         $.createModal({
             title:'Liguria Survival Kit',
@@ -215,6 +234,6 @@ $(function(){
             closeButton:true,
             scrollable:false
         });
-        return false;        
-    });    
+        return false;
+    });
 })
