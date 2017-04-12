@@ -91,7 +91,7 @@ $(function() {
         en : "Classroom E2 :>"
       },
       "^- tanto per": {
-        en : "just for fun"
+        en : "- just for fun -"
       },
       "^Genovese di nascita,": {
         en : "Born in Genoa, exports his joy when defeats the grip of the couch. He loves discovering different cultures, focusing mostly on the gastronomic aspects. A night with friends, a walk in a (not too) sunny day, afternoons with his BFF: the laptop. Nerd? In his best days. ;)"
