@@ -15,7 +15,7 @@ $(function() {
      en : "Story"
     },
     "Auguri": {
-     en : "Thanks"
+     en : "Wishes"
     },
     "Regali": {
      en : "Presents"
@@ -29,11 +29,11 @@ $(function() {
     "Vi aspettiamo": {
      en : "The Ceremony"
     },
-    "Agosto": {
-     en : "August"
+    "26 Agosto 2017": {
+     en : "26th August 2017"
     },
-    "Ore": {
-     en : "h"
+    "Ore 16:00": {
+     en : "h 16:00"
     },
     "Galleria Fotografica": {
      en : "Gallery"
