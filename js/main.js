@@ -18,13 +18,19 @@ $(function() {
      en : "Thanks"
     },
     "Regali": {
-     en : "Gitfs"
+     en : "Gifts"
     },
     "si sposano": {
      en : "are getting merried"
     },
     "...finalmente!": {
      en : "...finally!"
+    },
+    "Intestato a": {
+     en : "Recipient"
+    },
+    "causale/messaggio": {
+     en : "reference/message"
     }
   };
 
