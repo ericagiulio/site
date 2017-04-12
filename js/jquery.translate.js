@@ -53,9 +53,11 @@
         //not found, return index
         for (var key in rx) {
           if ( index.match(key) ) {
-            console.log("found")
-            console.log(key+":"+rx[key][settings.lang])
-            return rx[key][settings.lang]
+            if( rx[key][settings.lang] !== undefined ) {
+              console.log("found")
+              console.log(key+":"+rx[key][settings.lang])
+              return rx[key][settings.lang]
+            }        
           }
         }
         return index;

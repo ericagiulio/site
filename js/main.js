@@ -42,15 +42,18 @@ $(function() {
      en : "Recipient"
     },
 
-    "causale/messaggio": {
-     en : "reference/message"
+    "La vostra presenza": {
+     en : "Your presence"
     }
   };
 
   var rx = {
     "^causale": {
-     en : "reference/message:  Calzolari Pescio Lista Nozze + what do you want! "
-     }
+      en : "reference/message:  Calzolari Pescio Lista Nozze + what do you want! "
+     },
+     "^Siamo": {
+      en : "We are easy people, we don't use expensive stuff"
+     },
    };
 
   if ($.cookie('lang') == "en" ){
