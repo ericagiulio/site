@@ -47,18 +47,23 @@ $(function() {
     }
   };
 
+  var rx = {
+    "^causale": {
+     en : "reference/message:  Calzolari Pescio Lista Nozze + what do you want! "
+     }
+   };
 
   if ($.cookie('lang') == "en" ){
   	$(".lang_selector").eq(0).addClass("hidden");
   	$(".lang_selector").eq(1).removeClass("hidden");
-  	var _t = $('body').translate({lang: "en", t: t});
+  	var _t = $('body').translate({lang: "en", t: t, rx: rx});
   } else {
   	$.cookie('lang' , "it");
-  	var _t = $('body').translate({lang: "it", t: t});
+  	var _t = $('body').translate({lang: "it", t: t, rx: rx});
   }
 
   var str = _t.g("translate");
-  console.log($.cookie('lang'));
+  // console.log($.cookie('lang'));
 
 
   $(".lang_selector").click(function(ev) {
@@ -69,7 +74,7 @@ $(function() {
 
     _t.lang(lang);
     $.cookie('lang' , lang);
-    console.log(lang);
+    // console.log(lang);
     ev.preventDefault();
   });
 
@@ -87,7 +92,7 @@ $(document).ready(function() {
     	console.log("site unlock");
     	$.cookie('password' , $(this).val() );
     	$.unblockUI();
-    	$("#loginForm").css("display", "none");
+    	$("#loginForm").addClass("hidden");
 
     }
 });

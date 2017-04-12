@@ -30,6 +30,7 @@
       settings.css = "." + settings.css;
        
     var t = settings.t;
+    var rx = settings.rx;
  
     //public methods
     this.lang = function(l) {
@@ -50,6 +51,13 @@
       }
       catch (err) {
         //not found, return index
+        for (var key in rx) {
+          if ( index.match(key) ) {
+            console.log("found")
+            console.log(key+":"+rx[key][settings.lang])
+            return rx[key][settings.lang]
+          }
+        }
         return index;
       }
       
