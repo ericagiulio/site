@@ -6,29 +6,42 @@ $(function() {
 
   var t = {
     "Cerimonia": {
-     en : "Wedding"
+     en : "Ceremony"
     },
     "Chi Siamo": {
-     en : "Who we are"
+     en : "About"
     },
     "Storia": {
-     en : "History"
+     en : "Story"
     },
     "Auguri": {
      en : "Thanks"
     },
     "Regali": {
-     en : "Gifts"
+     en : "Presents"
     },
     "si sposano": {
-     en : "are getting merried"
+     en : "get married"
     },
     "...finalmente!": {
      en : "...finally!"
     },
+    "Vi aspettiamo": {
+     en : "The Ceremony"
+    },
+    "Agosto": {
+     en : "August"
+    },
+    "Ore": {
+     en : "h"
+    },
+    "Galleria Fotografica": {
+     en : "Gallery"
+    },
     "Intestato a": {
      en : "Recipient"
     },
+
     "causale/messaggio": {
      en : "reference/message"
     }
@@ -43,7 +56,7 @@ $(function() {
   	$.cookie('lang' , "it");
   	var _t = $('body').translate({lang: "it", t: t});
   }
-  
+
   var str = _t.g("translate");
   console.log($.cookie('lang'));
 
@@ -75,11 +88,11 @@ $(document).ready(function() {
     	$.cookie('password' , $(this).val() );
     	$.unblockUI();
     	$("#loginForm").css("display", "none");
-    	
+
     }
 });
  // $.unblockUI();
- 
+
 	/**
 	* Scroll animation if click navbar menu
 	**/
@@ -143,7 +156,7 @@ $(document).ready(function() {
 	// 	        } else {
 	// 	          $(this).gmap3({
 	// 	            infowindow:{
-	// 	              anchor:marker, 
+	// 	              anchor:marker,
 	// 	              options:{content: context.data}
 	// 	            }
 	// 	          });
@@ -153,6 +166,5 @@ $(document).ready(function() {
  // 		 }
 
 	// });
-	
-});
 
+});
