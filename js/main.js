@@ -30,13 +30,13 @@ $(function() {
      en : "The Ceremony"
     },
     "26 Agosto 2017": {
-     en : "26th August 2017"
+     en : "August, 26 2017"
     },
-    "Ore 16:00": {
-     en : "h 16:00"
+    "~ Ore 16:00 ~": {
+     en : "~ h 16:00 ~"
     },
     "Galleria Fotografica": {
-     en : "Gallery"
+     en : "Photo Gallery"
     },
     "Intestato a": {
      en : "Recipient"
