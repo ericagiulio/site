@@ -59,15 +59,15 @@ $(function() {
     },
     "Finchè un giorno...": {
      en : "Until one day..."
-    },
-    "Intestato a": {
-     en : "Recipient"
     }
   };
 
   var rx = {
       "^causale": {
-        en : "reference/message:  Calzolari Pescio Lista Nozze + what do you want! "
+        en : "reference/message:  Calzolari Pescio Lista Nozze + whatever you want!"
+      },
+      "^Intestato a": {
+        en : "Recipient: Calzolari Pescio Lista Nozze"
       },
       "^Ed inaspettatamente": {
         en : "And finally, we are now getting married. :')"
@@ -107,6 +107,18 @@ $(function() {
       },
       "^Fotografie?": {
         en : "Photos? Drawings? Post-it? <br> Turn your creativity on, arrange your message of wishes and bring it with you to help us filling our journal with unique memories."
+      },
+      "^Siamo persone": {
+        en : "We are simple, we do not crave expensive articles."
+      },
+      "^La vostra": {
+        en : "Your participation"
+      },
+      "^al matrimonio": {
+        en : "to the wedding is for us much more important!"
+      },
+      "^Tuttavia, se desiderate": {
+        en : "However, you could eventually leave us a contribution for the honeymoon and make us even more happy!"
       }
    };
 
