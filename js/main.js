@@ -41,7 +41,9 @@ $(function() {
     "Finchè un giorno...": {
      en : "Until one day..."
     },
-
+    "Aula E2 :>": {
+     en : "Classroom E2 :>"
+    },
     "Intestato a": {
      en : "Recipient"
     }
@@ -54,8 +56,20 @@ $(function() {
       "^Ed inaspettatamente": {
         en : "And finally, we are now getting married. :')"
       },
-      "^..anche Giulio": {
+      "^...anche Giulio": {
         en : "...Giulio joined Erica in the core of Bavaria. Time flies with friends, challenging tasks at work and worldwide travels."
+      },
+      "^...che cambia solo": {
+        en : "...that scales only when Erica moves to Munich"
+      },
+      "^...cosí comincia la": {
+        en : "...so begins our wandering story..."
+      },
+      "^Normale uscita": {
+        en : "Regular cinema night with friends. The movie is so boring that Giulio starts flirting with Erica (under the unknowing eyes of the poor Stefano Delucchi)"
+      },
+      "^Prima lezione di": {
+        en : "First lesson of \"Electromagnetic Fields\" at the University: Erica and Giulio bump into each other."
       }
    };
 
