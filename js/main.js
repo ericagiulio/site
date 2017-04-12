@@ -29,26 +29,23 @@ $(function() {
     "Vi aspettiamo": {
      en : "The Ceremony"
     },
-    "26 Agosto 2017": {
-     en : "August, 26 2017"
+    " 17 Settembre 2006": {
+     en : " 17 September 2006"
     },
-    "Settembre, 17 2006": {
-     en : "September, 17 2006"
+    " Novembre (forse Ottobre) 2007": {
+     en : " November (maybe October) 2007"
     },
-    "Novembre (forse Ottobre) 2007": {
-     en : "November (maybe October) 2007"
+    " Giornate qualunque": {
+     en : " Ordinary days"
     },
-    "Giornate qualunque": {
-     en : "Ordinary days"
+    " Settembre 2011": {
+     en : " September 2011"
     },
-    "Settembre 2011": {
-     en : "September 2011"
+    " Agosto 2014": {
+     en : " August 2014"
     },
-    "Agosto 2014": {
-     en : "August 2014"
-    },
-    "Agosto, 26 2017": {
-     en : "August, 26 2017"
+    " 26 Agosto 2017": {
+     en : " 26 August 2017"
     },
 
     "~ Ore 16:00 ~": {
