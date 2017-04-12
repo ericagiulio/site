@@ -38,22 +38,25 @@ $(function() {
     "Galleria Fotografica": {
      en : "Photo Gallery"
     },
-    "Intestato a": {
-     en : "Recipient"
+    "Finchè un giorno...": {
+     en : "Until one day..."
     },
 
-    "La vostra presenza": {
-     en : "Your presence"
+    "Intestato a": {
+     en : "Recipient"
     }
   };
 
   var rx = {
-    "^causale": {
-      en : "reference/message:  Calzolari Pescio Lista Nozze + what do you want! "
-     },
-     "^Siamo": {
-      en : "We are easy people, we don't use expensive stuff"
-     },
+      "^causale": {
+        en : "reference/message:  Calzolari Pescio Lista Nozze + what do you want! "
+      },
+      "^Ed inaspettatamente": {
+        en : "And finally, we are now getting married. :')"
+      },
+      "^..anche Giulio": {
+        en : "...Giulio joined Erica in the core of Bavaria. Time flies with friends, challenging tasks at work and worldwide travels."
+      }
    };
 
   if ($.cookie('lang') == "en" ){
