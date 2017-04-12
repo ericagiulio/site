@@ -100,9 +100,14 @@ $(function() {
         en : "Grown up in Savona, Albisola, Vado... well, it's still unclear...since the beginning her parents taught her to travel by caravan as well as camping with tent and backpack. In spite of the travels, she keeps alive her passions: Volleyball, Sea and Friends! According to her, best days end with a beach volley among friends."
       },
       "^La vita è": {
-        en : "Life is but a Journey, to travel is to live twice"
+        en : "Life is but a Journey, to travel is to live twice.<small>Omar Khayyam</small>"
+      },
+      "^Lascia la tua": {
+        en : "Make your mark!"
+      },
+      "^Fotografie?": {
+        en : "Photos? Drawings? Post-it? <br> Turn your creativity on, arrange your message of wishes and bring it with you to help us filling our journal with unique memories."
       }
-
    };
 
   if ($.cookie('lang') == "en" ){
